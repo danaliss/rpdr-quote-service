@@ -37,3 +37,5 @@ out/
 
 ### VS Code ###
 .vscode/
+debug.log $ git rm --cached debug.log rm debug.log $ git commit -m Start ignoring debug.logq
+application.properties $ git rm --cached application.properties rm application.properties $ git commit -m Start ignoring application.properties
