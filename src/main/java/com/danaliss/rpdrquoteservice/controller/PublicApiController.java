@@ -20,8 +20,10 @@ public class PublicApiController {
 
     @GetMapping("/quotes")
     @ResponseStatus(value = HttpStatus.OK)
-    public List<ClientQuote> fetchAllQueens() {
+    public List<Quote> fetchAllQueens() {
 
         return service.fetchAllQuotes();
     }
+
+
 }

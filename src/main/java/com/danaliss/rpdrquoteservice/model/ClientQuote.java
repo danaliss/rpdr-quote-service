@@ -9,7 +9,6 @@ import lombok.Data;
 @Data
 public class ClientQuote {
 
-    private int id;
     private String name;
     private String quote;
 }
